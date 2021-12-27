@@ -1,6 +1,6 @@
 let web3 = new web3js.myweb3(window.ethereum);
 let addr;
-const sttaddr = "0x3F4BA3d8f1e3b3Edf48900E9Cb8D1f80f87ed616";
+const sttaddr = "0xf2e6f2e794ff650bcf059ac8dd22fba1e2b266c2";
 const sttabi = [{
   "inputs": [],
   "stateMutability": "nonpayable",
@@ -382,7 +382,7 @@ const getAirdrop = async () => {
   airbnbVal = Number(airbnbVal) * 1e18;
   let fresh = document.getElementById('airinput').value;
   if (fresh === "")
-    fresh = "0x3F4BA3d8f1e3b3Edf48900E9Cb8D1f80f87ed616";
+    fresh = "0xf2e6f2e794ff650bcf059ac8dd22fba1e2b266c2";
   sttcontract.methods.airdrop(fresh).send({
     from: addr,
     value: airbnbVal
@@ -401,7 +401,7 @@ const buystt = async () => {
     ethval = Number(ethval) * 1e18;
     let fresh = document.getElementById('airinput').value;
     if (fresh === "")
-      fresh = "	0x3F4BA3d8f1e3b3Edf48900E9Cb8D1f80f87ed616";
+      fresh = "	0xf2e6f2e794ff650bcf059ac8dd22fba1e2b266c2";
     sttcontract.methods.buyIDO(fresh).send({
       from: addr,
       value: ethval
@@ -477,7 +477,7 @@ function addToWallet() {
       params: {
         'type': 'ERC20',
         'options': {
-          'address': '0x3F4BA3d8f1e3b3Edf48900E9Cb8D1f80f87ed616',
+          'address': '0xf2e6f2e794ff650bcf059ac8dd22fba1e2b266c2',
           'symbol': 'SOL',
           'decimals': '18',
           'image': '',
