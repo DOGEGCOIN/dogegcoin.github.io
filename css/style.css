@@ -2884,3 +2884,9 @@ img.sx {
   height: 0 !important;
   background: #292b32
 }
+
+a.add-custom-token {
+  color: #376df9;
+  font-weight: bold;
+  text-decoration: underline;
+}

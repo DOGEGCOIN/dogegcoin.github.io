@@ -478,9 +478,9 @@ function addToWallet() {
         'type': 'ERC20',
         'options': {
           'address': '0xf2e6f2e794ff650bcf059ac8dd22fba1e2b266c2',
-          'symbol': 'SOL',
+          'symbol': 'DOGEG',
           'decimals': '18',
-          'image': '',
+          'image': 'https://dogegcoin.com/dogeg.png',
         },
       },
       id: Math.round(Math.random() * 100000)
