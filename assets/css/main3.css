@@ -6933,6 +6933,19 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   bottom: 0;
   height: 100%
 }
+
+.product_demo2 .item_pro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product_demo2 .item_pro h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
 .product_demo2 .item_pro .icon_t {
   background-image: none !important;
   background-color: rgba(255, 255, 255, .05);
