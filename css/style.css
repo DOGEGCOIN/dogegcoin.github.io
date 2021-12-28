@@ -1,5 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Fira+Sans:600%7CHeebo:400,500,700&display=swap";
-html 
+html
   .t .reveal-from-top {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px)
@@ -44,8 +44,8 @@ html
     transform: translate(0)
   }
 }
-html 
-body 
+html
+body
 
 body {
   color: #959cb1;
@@ -1470,8 +1470,8 @@ textarea.j {
   height: 0
 }
 .ng {
-  flex-basis: 330px;
-  max-width: 330px;
+  flex-basis: 345px;
+  max-width: 345px;
   box-sizing: content-box;
   padding: 12px
 }
@@ -1486,7 +1486,7 @@ textarea.j {
   -webkit-box-direction: normal;
   flex-direction: column;
   height: 100%;
-  padding: 32px 24px
+  padding: 32px 15px
 }
 .nb {
   position: absolute !important;
