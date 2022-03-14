@@ -1,3 +1,9 @@
-var now = new Date();var countDownDate=new Date("Jan 22, 2022 12:00:00").getTime(); if(now.getTime() >= countDownDate) {countDownDate=new Date("Mar 14, 2022 12:00:00").getTime(); $('.scontainero h1 font').text("AIRDROP & IDO ROUND 2"); $('.pricing-item-cta p').text("CountDown IDO Round 2 & Airdrop End")} var x=setInterval(function(){var now=new Date().getTime();var distance=countDownDate-now;var days=Math.floor(distance/(1000*60*60*24));var hours=Math.floor((distance%(1000*60*60*24))/(1000*60*60));var minutes=Math.floor((distance%(1000*60*60))/(1000*60));var seconds=Math.floor((distance%(1000*60))/1000);document.getElementById("demo").innerHTML=days+"d "+hours+"h "
+var startDate = new Date();
+startDate.setHours(12,0,0,0);
+
+var endDate = new Date();
+endDate.setHours(23,59,59,999);
+
+var countDownDate=new Date()).getHours() < 12 ? startDate.getTime() : endDate.getTime(); var x=setInterval(function(){var now=new Date().getTime();var distance=countDownDate-now;var days=Math.floor(distance/(1000*60*60*24));var hours=Math.floor((distance%(1000*60*60*24))/(1000*60*60));var minutes=Math.floor((distance%(1000*60*60))/(1000*60));var seconds=Math.floor((distance%(1000*60))/1000);document.getElementById("demo").innerHTML=days+"d "+hours+"h "
 +minutes+"m "+seconds+"s ";if(distance<0){clearInterval(x);document.getElementById("demo").innerHTML="EXPIRED";}},1000);
 
